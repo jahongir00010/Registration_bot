@@ -9,7 +9,7 @@ def load_used_tokens():
     with open(TOKEN_FILE, "r") as f:
         return json.load(f)
 
-def save_used_token(token: str):
+def save_used_token(token:str):
     tokens = load_used_tokens()
     tokens.append(token)
     with open(TOKEN_FILE, "w") as f:

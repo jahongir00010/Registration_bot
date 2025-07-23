@@ -40,7 +40,7 @@ async def main():
         save_used_token(token)
         await message.answer(
             f"✅ Xush kelibsiz! Sizning tokeningiz: <code>{token}</code>\n"
-            f"Ro'yxatdan o'tish  uchun 'ro'yxatdan o'tish' deb yozing."
+            f"Ro'yxatdan o'tish uchun 'ro'yxatdan o'tish' deb yozing."
         )
 
     @dp.message(CommandStart())

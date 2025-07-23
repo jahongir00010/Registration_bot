@@ -3,7 +3,7 @@ import uuid
 import os
 
 BOT_USERNAME = "@registration_test1_bot"
-QR_DIR = "qr_codes" # QR kodlar papkasi
+QR_DIR = "qr_codes"  # QR kodlar papkasi
 
 os.makedirs(QR_DIR, exist_ok=True)
 
