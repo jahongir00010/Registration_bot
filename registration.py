@@ -34,7 +34,7 @@ async def process_surname(message: Message, state: FSMContext):
         one_time_keyboard=True
     )
 
-    await message.answer("Telefon raqamingizni yuboring:", reply_markup=contact_keyboard)
+    await message.answer("Telefon  raqamingizni yuboring:", reply_markup=contact_keyboard)
     await state.set_state(Registration.phone)
 
 @router.message(Registration.phone, F.contact)
